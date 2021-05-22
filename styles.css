@@ -79,3 +79,20 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+#footer{
+  padding: 5% 11%;
+  text-align: center;
+  background-color:#fff;
+
+}
+
+.git
+{
+  color: grey;
+ margin : 20px 10px;
+ border-radius: 20px;
+}
+.git:hover{
+  color: blue;
+}
