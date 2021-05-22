@@ -79,13 +79,16 @@ h1 {
   color: yellow;
 }
 
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
 #footer{
     margin-top:17%;
   padding: 1% 5%;
   text-align: center;
   background-color:black;
-  color: white;
-
 }
 
 .git
