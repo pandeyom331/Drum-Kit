@@ -75,6 +75,10 @@ h1 {
   background-color: white;
 }
 
+.drum:hover{
+  color: yellow;
+}
+
 #footer{
     margin-top:17%;
   padding: 1% 5%;
