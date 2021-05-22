@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Drum Kit</title>
   <link rel="stylesheet" href="styles.css">
+    <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/9bb8901042.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 
@@ -22,9 +24,20 @@
   </div>
   <script src="index.js"></script>
 
-  <footer>
-    © Copyright 2021 Drum-Kit 
-  </footer>
+    <footer id="footer">
+      <a href="https://github.com/pandeyom331"><i class="git fab fa-github fa-1x "></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100004398076666"><i class="git fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/solo_thinker_134/"><i class="git fab fa-instagram "></i></a>
+      <a class="email" href="mailto:pandeyom305@gmail.com"><i class="git fas fa-envelope"></i></a>
+      <p>Copyright &#169; <span id="year"></span> Drum kit 🥁🎸🎺</p>
+
+    </footer>
+
+     <script>
+   var year = new Date();
+   var newYear = year.getFullYear();
+   document.getElementById("year").innerHTML = newYear;
+</script>
 </body>
 
 </html>
